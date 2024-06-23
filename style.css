@@ -1,0 +1,98 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    /* background-color: lightgreen; */
+    background: rgb(102, 241, 90);
+    background: linear-gradient(90deg, rgb(182, 240, 170) 0%, rgb(90, 235, 97) 15%, rgb(95, 225, 136) 50%, rgb(71, 239, 191) 100%);
+}
+
+/* main container */
+
+.main_container{
+    width: 75vw;
+    height: 85vh;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 10%;
+    background-color: white;
+    box-shadow: 10px 10px 10px  rgb(30, 28, 28);
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    text-transform: capitalize;
+}
+
+.nav p{
+    font-size: x-large;
+    text-decoration: solid;
+    font-style: italic;
+    color: green;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.nav h5{
+    font-weight: 300;
+    margin: 5px;
+}
+
+
+/* form container  */
+
+
+.form{
+    width: 99%;
+    height: 80%;
+    text-transform: capitalize;
+    font-size: larger;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    font-size: small;
+}
+
+.form .info{
+    padding: 15px;
+    width: 45%;
+    flex-grow: 1;   
+}
+
+.info_1 input{
+    font-style: italic;
+    width: 60%;
+}
+
+.info option{
+    font-style: italic;
+    width: 80%;
+}
+
+.form .info label{
+    font-weight: bold;
+}
+.form textarea{
+    width: 85%;
+    height: 70%;
+}
+
+#option{
+    width: 60%;
+    text-align: center;
+}
+
+input[type=submit]{
+    margin-top: 1.5%;
+    background-color: rgb(8, 158, 63);
+    color: white;
+    font-size: 1.3rem;
+    width: 30%;
+    margin-left: 30%;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(89, 239, 149);
+    cursor: pointer;
+}

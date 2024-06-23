@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="main_container">
+        <div class="nav">
+            <p> Survey Form</p>
+            <h5>Feel Free To Answer The Question Below On Your Own Experience And Opinion. If You Are Not Convenient In Answering A Particular
+                Question Please Skip It By Answering "No". Every Answer Would Be Very Appreciated. Thank You For Your Time.
+            </h5>
+        </div>
+
+        <form class="form">
+            <div class="info">
+                <div class="info_1">
+                    <div>
+                        <label for="Your Name"> Your Name :-</label>
+                        <br>
+                        <input type="text" id="Your Name"  placeholder="Enter Your Name" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Your Email "> Your Email Address :- </label>
+                        <br>
+                        <input type="email" id="Your Email" placeholder="User@user.com" required>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Your Phone"> Your Phone Number :-</label>
+                        <br>
+                        <input type="text" id="Your Phone" placeholder="9999999999" required maxlength="10">
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <label for="place"> Where Do You Live ?</label>
+                <br>
+                <select name="place" id="option">
+                    <option value="Select">Select</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Gurgoan">Gurgoan</option>
+                    <option value="Noida">Noida</option>
+                    <option value="Banglore">Banglore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Hydrabad">Hydrabad</option>
+                </select>
+            </div>
+
+            <div class="info">
+                <fieldset>
+                        <legend style=" font-weight: bold;">Enter Your Age :-</legend>
+                    <input type="radio" id="choice1" name="age">
+                        15-20
+                    <br>
+                    <input type="radio" id="choice2" name="age">
+                        21-30
+                    <br>
+                    <input type="radio" id="choice3" name="age">
+                        31-40
+                    <br>
+                    <input type="radio" id="choice4" name="age">
+                        41-50
+                    <br>
+                    <input type="radio" id="choice5" name="age">
+                        Prefer not to say
+                </fieldset> 
+            </div>
+
+            <div class="info">
+                <label for="proficiency"> how would you rate your proficiency in coding :-</label>
+                <br>
+                <input type="radio" id="Beginner" name="proficiency"> Beginner
+                <br>
+                <input type="radio" id="Intermediate" name="proficiency"> Intermediate
+                <br>
+                <input type="radio" id="Advance" name="proficiency"> Advance 
+            </div>
+            
+            <div class="info">
+                    <label for="contest"> have you ever appeared in any coding contest ?</label>
+                    <br>
+                    <input type="radio" name="contest"> Yes
+                    <br>
+                    <input type="radio" name="contest"> No
+            </div>
+
+            <div class="info">
+                    <label for="contest"> discuss what drives your passion for coding and outline 
+                        your aspiration in the field ?
+                    </label>
+                    <br>
+                    <textarea name="Experience" ></textarea>
+            </div>
+
+            <div class="info">
+                    <label for="contest">what are some of the challenges youface while coding?
+                    </label>
+                    <br>
+                    <textarea name="Experience" ></textarea>
+            </div>
+
+            <div class="info">
+                    <label for="contest"> Please list the data structure you have a strong 
+                        understanding of ...
+                    </label>
+                    <br>
+                    <textarea name="Experience" ></textarea>
+            </div>
+    
+            <div class="submit">
+                <input type="submit" value="Submit">
+            </div>   
+        </form>
+    </div>
+</body>
+</html>
